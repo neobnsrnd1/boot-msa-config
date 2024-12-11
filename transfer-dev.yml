@@ -6,6 +6,10 @@ mybatis:
 spring:
   application:
     name: transfer 
+  boot:
+    admin:
+      client:
+        url: http://localhost:19000/adminPage
 
 eureka:
   client:
